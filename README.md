@@ -57,6 +57,6 @@ Unpaid Reviews:
 	* Total Unpaid Reviews with 5 Stars: 15,663
 	* % of Unpaid Reviews that were 5 Stars: 38.70%
 
-In conclusion, for the Video Game dataset, it would seem that there is bias among the paid vine reviews for this particular data set since the percentage of 5 stars in the paid reviews is much higher than the percentage of 5 stars in the unpaid reviews.  
+In conclusion, for the Video Game dataset, it would seem that there is bias among the paid vine reviews since the percentage of 5 stars in the paid reviews is much higher than the percentage of 5 stars in the unpaid reviews.  
 
-What we do not know is if this bias is present in all of the Amazon Vine datasets and a similar analysis would need to be performed for each to determine if there is bias in the overall program.
+What we do not know is if this bias is present in all of the Amazon Vine datasets and a similar analysis would need to be performed on each to determine if there is bias in the overall program.
