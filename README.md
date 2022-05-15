@@ -12,7 +12,7 @@ For this assignment I picked the reviews on Video Games and will use PySpark for
 # Analysis
 
 ## Deliverable 1 Perform ETL on Amazon Product Reviews
-Using the cloud ETL process, we are creating an AWS RDS database with tables in pgAdmin using the Amazon Vine Video Game reviews dataset. The dataset will be transformed into four separate DataFrames that match the table schema in pgAdmin. Then the transformed data will be loaded into the appropriate tables and queries will be run in pgAdmin to confirm that the data has been uploaded.
+Using the cloud ETL process, the first step is creating an AWS RDS database with tables in pgAdmin for the Amazon Vine Video Game reviews dataset. The dataset will be transformed into four separate DataFrames that match the table schema in pgAdmin. Then the transformed data will be loaded into the appropriate tables and queries will be run in pgAdmin to confirm that the data has been uploaded.
 
 Initial data Frame imported into Spark
 ![](https://github.com/timbialek/Amazon_Vine_Analysis/blob/main/Resources/PySpark%20File%20Import%20from%20S3%20bucket.PNG)
@@ -46,14 +46,17 @@ Unpaid Reviews Metrics
 ## Deliverable 3 Summary
 
 Paid Reviews:
+
 	* Total Paid Reviews: 94
 	* Total Paid Reviews with 5 Stars: 48
 	* % of Paid Reviews that were 5 Stars: 51.06%
 
 Unpaid Reviews:
+
 	* Total Unpaid Reviews: 40,471
 	* Total Unpaid Reviews with 5 Stars: 15,663
 	* % of Unpaid Reviews that were 5 Stars: 38.70%
 
-In conclusion, for the Video Game dataset, it would seem that there is bias among the paid vine reviews for this particular data set since the percentage of 5 stars in the paid reviews is much higher than the percentage of 5 starts in the unpaid reviews.  
+In conclusion, for the Video Game dataset, it would seem that there is bias among the paid vine reviews for this particular data set since the percentage of 5 stars in the paid reviews is much higher than the percentage of 5 stars in the unpaid reviews.  
+
 What we do not know is if this bias is present in all of the Amazon Vine datasets and a similar analysis would need to be performed for each to determine if there is bias in the overall program.
