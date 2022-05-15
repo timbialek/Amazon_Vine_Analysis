@@ -6,14 +6,14 @@ For this assignment I picked the reviews for Video games and the use of PySpark 
 
 ## Resources
 * Source Data: ![Amazon Vine Video Game Reviews](https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Video_Games_v1_00.tsv.gz)
-* Software : Google Colab Notebook, PostgreSQL, pgAdmin 4, Amazon Web Service AWS, PySpark
+* Software: Google Colab Notebook, PostgreSQL, pgAdmin 4, Amazon Web Service AWS, PySpark
 
 # Analysis
 
 ## Deliverable 1 Perform ETL on Amazon Product Reviews
 Using the cloud ETL process, we are creating an AWS RDS database with tables in pgAdmin using the Amazon Vine Video Game reviews dataset. The dataset will be transformed into four separate DataFrames that match the table schema in pgAdmin. Then the transformed data will be loaded into the appropriate tables and queries will be run in pgAdmin to confirm that the data has been uploaded.
 
-Initial datafrrame imported into Spark
+Initial data Frame imported into Spark
 ![](https://github.com/timbialek/Amazon_Vine_Analysis/blob/main/Resources/PySpark%20File%20Import%20from%20S3%20bucket.PNG)
 
 pgADmin Final Tables
@@ -42,8 +42,17 @@ Unpaid Reviews Metrics
 
 
 
-## Deliverable 3
+## Deliverable 3 Summary
 
+Paid Reviews:
+	* Total Paid Reviews: 94
+	* Total Paid Reviews with 5 Stars: 48
+	* % of Paid Reviews that were 5 Stars: 51.06%
 
-t-test for lot 1:
-![](https://gihub.com/timbialek/MechaCar_Statistical_Analysis/blob/main/Resources/t-test_lot_1.png)
+Unpaid Reviews:
+	* Total Unpaid Reviews: 40,471
+	* Total Unpaid Reviews with 5 Stars: 15,663
+	* % of Unpaid Reviews that were 5 Stars: 38.70%
+
+In conclusion, for the Video Game dataset, it would seem that there is bias among the paid vine reviews for this particular data set since the percentage of 5 stars in the paid reviews is much higher than the percentage of 5 starts in the unpaid reviews.  
+What we do not know is if this bias is present in all of the Amazon Vine datasets and a similar analysis would need to be performed for each to determine if there is bias in the overall program.
