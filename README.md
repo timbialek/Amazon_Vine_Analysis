@@ -30,7 +30,16 @@ review_id_table
 vine_table
 ![](https://github.com/timbialek/Amazon_Vine_Analysis/blob/main/Resources/vine_table%20in%20pgAdmin.PNG)
 
-## Deliverable 2
+## Deliverable 2 Determine Bias of Vine Reviews
+
+Determine the total number of reviews, the number of 5-star reviews, and the percentage of 5-star reviews for the two types of review (paid vs unpaid).
+
+Paid Reviews Metrics
+![](https://github.com/timbialek/Amazon_Vine_Analysis/blob/main/Resources/paid_reviews_metrics.PNG)
+
+Unpaid Reviews Metrics
+![](https://github.com/timbialek/Amazon_Vine_Analysis/blob/main/Resources/unpaid_reviews_metrics.PNG)
+
 
 
 ## Deliverable 3
